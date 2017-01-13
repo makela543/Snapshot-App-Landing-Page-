@@ -1,0 +1,45 @@
+
+.jumbotron {
+    background-image: url(Assets/Jumbotron-img.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.vertical-center {
+  min-height: 75%; 
+  min-height: 75vh; 
+
+  display: flex;
+  align-items: center;
+}
+
+.title {
+    color: #304FFE;
+    font-weight: 700;
+}
+
+.lead {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+
+.btn-primary {
+    background-color: #304FFE;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+#features {
+    background-color: #E8EAF6;
+}
