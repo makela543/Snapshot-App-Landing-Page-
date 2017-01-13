@@ -41,5 +41,33 @@
 
 
 #features {
-    background-color: #E8EAF6;
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+}
+
+
+
+#features-title {
+    color: black;
+    margin-bottom: 0.5em;
+    font-weight: 700; 
+}
+
+
+
+
+
+.card-img-top {
+    width:100%;
+}
+
+
+
+
+
+.card-text {
+    text-align: left;
 }
