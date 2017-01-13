@@ -17,7 +17,7 @@
 }
 
 .title {
-    color: #304FFE;
+    color: #F50057;
     font-weight: 700;
 }
 
@@ -29,9 +29,13 @@
 
 
 .btn-primary {
-    background-color: #304FFE;
+    background-color: #F50057;
     border: none;
     color: white;
+}
+
+.btn-primary:hover {
+    background-color: #AD1457;
 }
 
 
@@ -45,12 +49,12 @@
     padding-top: 1em;
     padding-left: 5em;
     padding-right: 5em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 
 
-#features-title {
+.section-title {
     color: black;
     margin-bottom: 0.5em;
     font-weight: 700; 
@@ -70,4 +74,37 @@
 
 .card-text {
     text-align: left;
+}
+
+#team {
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    background-color: #212121;
+}
+
+#team-title {
+    color: #F50057;
+}
+
+.avatar {
+    margin-bottom: 1em;
+}
+
+.card-title {
+    color: #F50057;
+}
+
+#features-title {
+    color: #F50057;
+}
+
+.avatar-name {
+    color: #F50057;
+}
+
+.avatar-description {
+    color: white;
 }
