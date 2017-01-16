@@ -12,8 +12,8 @@
         <title>Snapshot</title>
     </head>
     
-    <body>
-        <nav class="navbar navbar-toggleable-md navbar-light">
+    <body data-spy="scroll" data-target="#navbar" data-offset="50">
+        <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded" id="navbar">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,11 +21,19 @@
             <a class="navbar-brand" href="#">SNAPSHOT</a>
             
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Team</a>
-                    <a class="nav-item nav-link" href="#">Download</a>
-                </div>
+                
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download</a>
+                    </li>
+                </ul>
+        
             </div>
         </nav>
         
@@ -34,7 +42,7 @@
             
                 <h1 class="display-3 title">SNAPSHOT</h1>
                 <p class="lead">Capture your life. One moment at a time.</p>
-                <button type="button" class="btn btn-primary">Learn More</button>
+                <a href="#features"><button type="button" class="btn btn-primary">Learn More</button></a>
                 
             
             </div>
@@ -42,8 +50,8 @@
         
         <div class="container-fluid" id="features">
             <h2 class="section-title" id="features-title">FEATURES</h2>
-            <div class="row">
-                <div class="col-sm-4">
+    
+                <div class="card-deck">
                     <div class="card">
                         <img class="card-img-top img-responsive" src="Assets/food-filters.jpg" alt="Card image cap">
                         <div class="card-block">
@@ -51,9 +59,8 @@
                             <p class="card-text">That bowl of tomato soup might not look as nice on your phone as it does in real life. Not to worry! Our proprietary food filters enhance the look of your food images to get you those extra Instragram likes.</p>
                         </div>
                     </div>
-                </div>
+
                 
-                <div class="col-sm-4">
                     <div class="card">
                         <img class="card-img-top img-responsive" src="Assets/motion-capture.jpg" alt="Card image cap">
                         <div class="card-block">
@@ -61,19 +68,19 @@
                             <p class="card-text">Getting great shots of your action-packed life can be difficult. With the advanced Motion Capture technology in our app, getting that perfect shot is as easy as 1-2-3.</p>
                         </div>
                     </div>
-                </div>
+            
                 
-                <div class="col-sm-4">
+                
                     <div class="card">
                         <img class="card-img-top img-responsive" src="Assets/auto-organize.jpg" alt="Card image cap">
                         <div class="card-block">
                             <h4 class="card-title">Auto-Organize</h4>
-                            <p class="card-text">Keeping all your photos and videos nicely organized can be troublesome and time-consuming. Auto-Organize deal with this so that you no longer have to.</p>
+                            <p class="card-text">Keeping all your photos and videos nicely organized can be troublesome and time-consuming. Auto-Organize deals with this so that you no longer have to.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        
         
         <div class="container-fluid" id="team">
             <h2 class="section-title" id="team-title">THE TEAM</h2>
@@ -100,7 +107,7 @@
         </div>
         
         <div class="container-fluid" id="download">
-            <h3 class="section-title" id="download-title">Available for iOS now.</h3>
+            <h3 class="section-title" id="download-title">Available on iOS now.</h3>
             <a href="#"><img src="Assets/appstore-badge.png"></a>
         
         
